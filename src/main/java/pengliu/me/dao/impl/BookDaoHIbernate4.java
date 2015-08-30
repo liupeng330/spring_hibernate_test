@@ -4,6 +4,6 @@ import pengliu.me.dao.BaseDaoHibernate4;
 import pengliu.me.dao.BookDao;
 import pengliu.me.model.BookEntity;
 
-public class BookDaoHIbernate4 extends BaseDaoHibernate4<BookEntity> implements BookDao
+public class BookDaoHibernate4 extends BaseDaoHibernate4<BookEntity> implements BookDao
 {
 }

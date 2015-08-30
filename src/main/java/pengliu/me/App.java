@@ -18,7 +18,7 @@ public class App
         BookService bookService = (BookService) ctx.getBean("bookService");
 
         BookEntity book = new BookEntity();
-        book.setId(123);
+        book.setId(7);
         book.setName("peng book");
         book.setPrice(123.321);
 
