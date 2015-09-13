@@ -61,7 +61,6 @@
               <property name="sessionFactory" ref="sessionFactory"/>
        </bean>
 
-
         <!-- 下面的配置是使用注解配置事务 -->
         <tx:annotation-driven transaction-manager="transactionManager"/>
 

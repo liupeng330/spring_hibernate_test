@@ -6,4 +6,5 @@ import pengliu.me.model.BookEntity;
 public interface BookService
 {
     int addBook(BookEntity book);
+    BookEntity getBook(Integer id);
 }

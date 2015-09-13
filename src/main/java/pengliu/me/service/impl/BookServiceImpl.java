@@ -24,4 +24,9 @@ public class BookServiceImpl implements BookService
 //        }
         return ret;
     }
+
+    public BookEntity getBook(Integer id)
+    {
+        return this.bookDao.get(BookEntity.class, id);
+    }
 }
